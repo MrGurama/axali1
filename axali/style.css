@@ -1,0 +1,112 @@
+ body {
+      background-color: #1e202a;
+      color: #8d97c9;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: white;
+      margin: 0;
+    }
+
+    h2 {
+      color: white;
+      margin-top: 50px;
+    }
+
+   
+    .row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    
+    .big-card {
+      background-color: #252a41;
+      border-radius: 6px;
+      text-align: center;
+      padding: 30px 0;
+      border-top: 5px solid;
+    }
+
+    .facebook { 
+        border-top-color: #1877f2; 
+    }
+    .twitter{ 
+        border-top-color: #1da1f2;
+     }
+    .instagram{ 
+        border-top-color: #e1306c; 
+    }
+    .youtube{ 
+        border-top-color: #c4032a; 
+    }
+
+    .big-card img {
+      width: 22px;
+      height: 22px;
+    }
+
+    .big-number {
+      color: white;
+      font-size: 60px;
+      font-weight: bold;
+      margin: 15px 0 0 0;
+    }
+
+    .label {
+      letter-spacing: 5px;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .today {
+      margin-top: 25px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+  
+    .small-card {
+      background-color: #252a41;
+      border-radius: 6px;
+      padding: 25px;
+    }
+
+    .small-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .small-top img {
+      width: 22px;
+      height: 22px;
+    }
+
+    .small-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 20px;
+    }
+
+    .small-number {
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .up   { color: #1fb58a;
+        font-weight: bold; }
+    .down { color: #dc414c; 
+        font-weight: bold; }
